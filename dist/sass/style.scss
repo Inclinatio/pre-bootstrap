@@ -1,0 +1,39 @@
+@import "custom-variables";
+@import "bootstrap";
+@import "fonts";
+@import "reset";
+@import "default-clases";
+@import "layout";
+
+
+
+.block{
+	min-height: 200px;
+	border: 1px solid #ccc;
+	border-radius: 2px;
+	padding: 2rem;
+	.input-group{
+		width: 100%;
+		margin-bottom: 1.5rem;
+		.form-control{
+			border-radius: 2px;
+		}
+	}
+	.dropdown{
+		margin-bottom: 1.5rem;
+		.dropdown-menu{
+			width: 100%;
+		}
+		.btn{
+			width: 100%;
+			text-align: left;
+		}
+		.caret {
+		    left: 95%;
+		    top: 45%;
+		    position: absolute;
+		}
+	}
+}
+
+
